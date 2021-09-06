@@ -2,6 +2,7 @@
 
 :root {
     --color-primary: #FF8400;
+    --color-primary-hover: #9F5300;
 }
 
 html, body {
@@ -22,6 +23,16 @@ html, body {
 .footer {
     flex-shrink: 0;
     text-align: center;
+}
+
+.footer a{
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: all ease 0.4s;
+}
+
+.footer a:hover{
+    color: var(--color-primary-hover);
 }
 
 .bg-primary {
