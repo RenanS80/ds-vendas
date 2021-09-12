@@ -6,14 +6,14 @@ Aplicação: <br>
     https://ds-vendas-renan.netlify.app/
 </a> <br>
 
-DS Deliver é uma aplicação full stack desenvolvida durante a 4ª edição da Semana Spring-React <a href="https://devsuperior.com.br/">DevSuperior</a> – evento ministrado pelo professor Nélio Alves. <br>
+DS Vendas é uma aplicação full stack desenvolvida durante a 4ª edição da Semana Spring-React <a href="https://devsuperior.com.br/">DevSuperior</a> – evento ministrado pelo professor Nélio Alves. <br>
 Este projeto exibe um dashboard de vendas a partir de dados fornecidos por um back-end construído com Spring Boot. <br>
 Durante o desenvolvimento foi criada uma API com os seguintes endpoints:
 <ul>
     <li><strong>/sellers:</strong> retorna todos os vendedores cadastrados.</li>
-    <li><strong>/sales?page=0&size=10&sort=date,desc:</strong> Retorno pageado, contendo informações de todas as vendas realizadas, ordenadas por data, de forma decrescente.</li>
-    <li><strong>/sales/amount-by-seller:</strong> retorna o nome de cada vendedor e o valor total de suas respectivas vendas.</li>
-    <li><strong>/sales/success-by-seller:</strong> retorna o nome de cada vendedor, quantidade de visitas e total de vendas efetivadas.</li>
+    <li><strong>/sales?page=0&size=10&sort=date,desc:</strong> retorno pageado, contendo informações de todas as vendas realizadas, ordenadas por data, de forma decrescente.</li>
+    <li><strong>/sales/amount-by-seller:</strong> retorna o nome de cada vendedor e o valor total de suas vendas.</li>
+    <li><strong>/sales/success-by-seller:</strong> retorna o nome de cada vendedor, quantidade de visitas e o total de vendas efetivadas.</li>
 </ul>
 
 ---
@@ -23,7 +23,7 @@ O projeto foi desenvolvido com as seguintes tecnologias: <br>
 
 <h3>Ferramentas</h3>
 <ul>
-    <li>Spring Tool Suit</li>
+    <li>Spring Tool Suite</li>
     <li>VS Code</li>
     <li>Postman</li>
 </ul>
